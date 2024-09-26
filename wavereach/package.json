@@ -1,0 +1,30 @@
+{
+  "name": "mon-projet",
+  "version": "1.0.0",
+  "description": "Description de mon projet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "gulp"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "author": "Votre Nom",
+  "license": "ISC"
+}
+
